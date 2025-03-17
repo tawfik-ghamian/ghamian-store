@@ -1,0 +1,15 @@
+# Development environment variables
+NODE_ENV=development
+DEV_PORT=3001
+DEV_DB_URL=mongodb://localhost:27017/ghamian_jewelry_store_dev
+DEV_JWT_SECRET=eaf3e4f8caa1d76c80f77b0af279f9a8
+
+# Test environment variables
+TEST_PORT=3002
+TEST_DB_URL=mongodb://localhost:27017/ghamian_jewelry_store_test
+TEST_JWT_SECRET=6afe4dc5e54783b3f376e6a85c5943bc
+
+# Production environment variables
+PROD_PORT=3000
+PROD_DB_URL=mongodb://username:password@production-server:27017/ghamian_jewelry_store_prod
+PROD_JWT_SECRET=b6d767d2f8ed5d21a44b0e5886680cb9
